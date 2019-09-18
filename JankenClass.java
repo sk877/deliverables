@@ -30,7 +30,7 @@ public class JankenClass {
         
         System.out.println("じゃんけん");
         
-     // 入力を促すメッセージ
+     // 入力させる
 	    System.out.print("入力してください > ");
 
 	    //入力された内容をインスタンスから取得
@@ -38,7 +38,7 @@ public class JankenClass {
 	    nyuRyoku = input_text;
 	 
 		
-		// rの範囲を０から２にする
+		// 範囲を０から２に指定
 		Random r = new Random();
 		int i = r.nextInt(2);
 		if (i == 0) {
@@ -67,7 +67,7 @@ public class JankenClass {
 	    }
 	}
 	
-	// 入力関係
+	
 	static void nyuRyoku(){
 		
 		
